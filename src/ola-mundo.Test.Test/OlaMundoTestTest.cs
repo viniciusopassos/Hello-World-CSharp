@@ -5,6 +5,7 @@ using System;
 
 namespace ola_mundo.Test.Test;
 
+[Collection("Sequential")]
 public class OlaMundoTestTest2
 {
     [Trait("Category", "2 - Criou testes de falha para o TestOlaMundo.")]
@@ -21,6 +22,7 @@ public class OlaMundoTestTest2
     }
 }
 
+[Collection("Sequential")]
 public class OlaMundoTestTest1
 {
 
