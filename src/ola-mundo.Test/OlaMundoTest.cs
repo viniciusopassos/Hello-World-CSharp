@@ -7,7 +7,7 @@ namespace ola_mundo.Test;
 public class OlaMundoTest
 {
     [Theory(DisplayName = "Deve exibir Olá, Mundo!")]
-    [InlineData("<Insira algo aqui>")]
+    [InlineData("<Insir algo aqui>")]
     public void TestOlaMundo(string Expected)
     {        
         throw new notImplementedException();                    
